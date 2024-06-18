@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    position: relative;
+    background-color: black;
+}
+
+body::before, body::after {
+    content: "";
+    position: fixed;
+    z-index: -1;
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body::before {
+    background-image: url('./src/assets/Vector14.png');
+    left: 0;
+    top: 0;
+}
+
+
+body::after {
+    background-image: url('./src/assets/Vector15.png');
+    right: 0;
+    top: 0;
+}
