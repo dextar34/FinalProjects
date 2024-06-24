@@ -4,16 +4,17 @@ import Container from '../Container';
 import About_Us from '../About_Us';
 import ImageWithOverly from '../ImageWithOverly';
 import BookNow from '../layer/BookNow';
-import List from '../layer/List';
 import RotateSpoon from '../layer/RotateSpoon';
-
+import Banner from "../Banner"
+import { Link } from 'react-router-dom';
 const Home = () => {
 return (
 <div>
-  <Container>
-    <p className='text-white text-center text-2xl py-60'>SLIDER</p>
-    <div className="pb-[150px]">
-      <ImageWithOverly src='./src/assets/BG.png' className='py-[150px] '>
+  <div className="h-50 relative">
+  <Banner/>
+  </div>
+  <div className="pb-[150px]">
+      <ImageWithOverly src='./src/assets/BG.png' className='py-[150px] w-full' classNameForImg="w-full">
         <div className=" relative z-50 flex gap-x-20 items-center mx-[210px] pb-40">
           <About_Us className='rotate-180' txt='About Us' direction='items-end' txtAaling='text-end' />
           <picture className=''>
@@ -26,14 +27,22 @@ return (
         </picture>
       </ImageWithOverly>
     </div>
+  <Container>
 
     <div className="text-white font-Cormorant pb-40 relative ">
       <ImageWithOverly src='./src/assets/glass.png'>
         <div className="absolute top-[293px] left-[145px]">
           <ul className='flex flex-col gap-y-16'>
-            <List text='Bar Menu' className='font-semibold text-6xl hover:underline transition-all duration-500' />
-            <List text='Food Menu' className='font-semibold text-6xl hover:underline transition-all duration-500' />
-            <List text='Desserts Menu' className='font-semibold text-6xl hover:underline transition-all duration-500' />
+            <Link>
+            <h4 className='font-semibold text-6xl hover:underline transition-all duration-3000'>Bar Menu</h4>
+            </Link>
+            <Link>
+            <h4 className='font-semibold text-6xl hover:underline transition-all duration-3000'>Food Menu</h4>
+            </Link>
+            <Link>
+            <h4 className='font-semibold text-6xl hover:underline transition-all duration-3000'>Desserts Menu</h4>
+            </Link>
+            
           </ul>
 
         </div>
@@ -43,7 +52,6 @@ return (
     </div>
 
     <BookNow />
-
   </Container>
 </div>
 );

@@ -8,6 +8,7 @@ import Images from './layer/Images';
 import Spoon from './Spoon';
 import Geritch from '../assets/Geritch.png'
 import Line2 from '../assets/Line2.png'
+import Button from './Button';
 
 const Footer = () => {
 return (
@@ -31,8 +32,7 @@ return (
                     <input
                         className="lg:w-[635px] w-[300px] py-[8px] lg:pl-[18.94px] pl-[9.94px] bg-transparent border font-Cormorant rant rant  border-[#F5EFDB] lg:py-[16px] text-[#AAAA]"
                         type="email" placeholder="Email Address" />
-                    <button
-                        className="font-Cormorant rant rant text-base text-[#0C0C0C] font-bold py-[8px] lg:ml-[32px] ml-[16px] px-[32px] bg-[#DCCA87]">Subscribe</button>
+                        <Button className="ml-8" text="Subscribe"/>
                 </form>
             </div>
         </div>
