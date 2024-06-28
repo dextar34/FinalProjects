@@ -4,7 +4,7 @@
 
 body {
     position: relative;
-    background-color: black;
+    background-color: rgb(12, 11, 08);
 }
 
 body::before, body::after {
