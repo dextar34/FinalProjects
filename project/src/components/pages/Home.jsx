@@ -6,6 +6,7 @@ import ImageWithOverly from '../ImageWithOverly';
 import BookNow from '../layer/BookNow';
 import List from '../layer/List';
 import RotateSpoon from '../layer/RotateSpoon';
+import Award from '../Award';
 
 const Home = () => {
 return (
@@ -25,6 +26,7 @@ return (
           <img src="./src/assets/G.png" alt="./src/assets/G.png" />
         </picture>
       </ImageWithOverly>
+     
     </div>
 
     <div className="text-white font-Cormorant pb-40 relative ">
@@ -43,6 +45,7 @@ return (
     </div>
 
     <BookNow />
+    <Award/>
 
   </Container>
 </div>
