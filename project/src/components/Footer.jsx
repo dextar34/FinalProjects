@@ -8,6 +8,7 @@ import Images from './layer/Images';
 import Spoon from './Spoon';
 import Geritch from '../assets/Geritch.png'
 import Line2 from '../assets/Line2.png'
+import Button from './Button';
 
 const Footer = () => {
 return (
@@ -29,18 +30,11 @@ return (
             <div className="inputfield">
                 <form>
                     <input
-                        className="lg:w-[635px] w-[300px] py-[8px] lg:pl-[18.94px] pl-[9.94px] bg-transparent border font-Cormorant rant rant  border-[#F5EFDB] lg:py-[16px] text-[#AAAA]"
+                        className="lg:w-[635px] outline-none w-[300px] py-[8px] lg:pl-[18.94px] pl-[9.94px] bg-transparent border font-Cormorant rant rant  border-[#F5EFDB] lg:py-[16px] text-[#AAAA]"
                         type="email" placeholder="Email Address" />
-                    <button
-                        className="font-Cormorant rant rant text-base text-[#0C0C0C] font-bold py-[8px] lg:ml-[32px] ml-[16px] px-[32px] bg-[#DCCA87]">Subscribe</button>
+                        <Button className='ml-[32px]' text="Subscribe"/>
                 </form>
             </div>
-        </div>
-        <div className="Scroll absolute right-[0] lg:top-[168px] top-20">
-            <Images className="pb-[8px]" href="/" src={Line2} alt="Line.png" />
-        </div>
-        <div className="text absolute left-[99%] lg:top-[237px] top-32">
-            <p className="text-[#DCCA87] font-Cormorant rant  font-bold ">TOP</p>
         </div>
         <div className="flex font-Cormorant rant rant  text-center flex-wrap justify-between">
             <div className="text w-[507px] lg:mt-[374px] mt-[184px]">

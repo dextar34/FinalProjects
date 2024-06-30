@@ -6,7 +6,7 @@ const BookNow = ({className}) => {
 return (
 <div className={`${className}`}>
     <div className="container max-w-[1680px] mx-auto py-10">
-        <div className="main max-w-[1364px] bg-[#0C0C0C] mx-auto  py-12   border-reserve-border border-4">
+        <div className="main max-w-[1364px] bg-[#0C0C0C] mx-auto  py-12   border border-[#dcca8733]">
 
             <div className="text w-[350px] mx-auto flex flex-col  justify-center items-center">
                 <h3 className='font-Cormorant text-[23px] font-bold text-[#FFFFFF]'>Reservations</h3>

@@ -7,12 +7,11 @@ import BookNow from '../layer/BookNow';
 import List from '../layer/List';
 import RotateSpoon from '../layer/RotateSpoon';
 import Award from '../Award';
-
+import Banner from "../Banner";
 const Home = () => {
 return (
 <div>
-  <Container>
-    <p className='text-white text-center text-2xl py-60'>SLIDER</p>
+    <Banner/>
     <div className="pb-[150px]">
       <ImageWithOverly src='./src/assets/BG.png' className='py-[150px] '>
         <div className=" relative z-50 flex gap-x-20 items-center mx-[210px] pb-40">
@@ -46,8 +45,6 @@ return (
 
     <BookNow />
     <Award/>
-
-  </Container>
 </div>
 );
 }

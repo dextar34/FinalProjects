@@ -1,11 +1,11 @@
-import React from 'react';
+import React from 'react'
 
-const Button = ({className, text}) => {
+const Button = ({text,className}) => {
   return (
-    <button className={`py-2 px-8 bg-[#DCCA87] text-[#0C0C0C] hover:bg-[#e7e6e0] font-Cormorant text-base font-bold tracking-[0.64px] transition-all duration-300 ${className}`}>
+    <div className={`inline-block cursor-pointer px-8 py-2 bg-[#DCCA87] border-2 border-[#DCCA87] hover:bg-transparent hover:text-[#DCCA87] font-Cormorant text-base font-bold text-[#0C0B08] transition-all duration-300 ${className}`}>
         {text}
-    </button>
-  );
+    </div>
+  )
 }
 
-export default Button;
+export default Button
