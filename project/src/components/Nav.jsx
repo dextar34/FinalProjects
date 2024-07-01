@@ -21,7 +21,7 @@ const Nav = () => {
                     <List href="/" text="Home" />
                     <List href="/" text="Pages" />
                     <List href="/" text="Contact us" />
-                    <List href="/" text="Blog" />
+                    <List href="/our/blogs-/with/sidebar" text="Blog" />
                     <List href="/" text="Landing" />
                 </ul>
                </div>

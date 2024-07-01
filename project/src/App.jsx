@@ -9,6 +9,7 @@ import RootLayout from './components/RootLayout';
 import Home from './components/pages/Home';
 import About from './components/pages/Services';
 import Services from './components/pages/Services';
+import Blog from './components/pages/Blog';
 
 const App = () => {
   const router = createBrowserRouter(
@@ -18,7 +19,8 @@ const App = () => {
         element={<RootLayout/>}
       >
         <Route index element={<Home/>}/>
-        <Route path='/Our/Services' element={<Services/>}/>
+        <Route path='/our/services' element={<Services/>}/>
+        <Route path="/our/blogs-/with/sidebar" element={<Blog/>}/>
       </Route>
     )
   );

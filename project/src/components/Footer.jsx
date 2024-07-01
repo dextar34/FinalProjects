@@ -12,7 +12,7 @@ import Button from './Button';
 
 const Footer = () => {
 return (
-<footer className="footer mt-[1100px]">
+<footer className="footer mt-[152px]">
     <Container className="relative">
         <div
             className="Newsletter bg-[#0C0C0C] border border-[#dcca8733] w-[1300px] h-[442px] absolute left-[150px] top-[-33.5%] text-center flex flex-col items-center">
