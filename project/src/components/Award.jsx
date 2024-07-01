@@ -12,7 +12,7 @@ const Award = () => {
         <div className="left w-[634px] py-[118px]">
         <div className='text'>
         <h3 className='font-Cormorant text-[#FFFFFF] text-[23px] font-bold'>Awards & recognition</h3>
-        <Spoon />
+        <Spoon/>
         <h2 className='font-Cormorant text-[64px] text-[#DCCA87] font-semibold pt-8'>Our Laurels</h2>
         </div>
         <div className="rectangle flex flex-wrap gap-x-8 gap-y-16 mt-16 my-32 ">

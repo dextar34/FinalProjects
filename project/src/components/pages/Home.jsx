@@ -8,6 +8,7 @@ import List from '../layer/List';
 import RotateSpoon from '../layer/RotateSpoon';
 import Award from '../Award';
 import Banner from "../Banner";
+import Barmenu from '../layer/Barmenu';
 const Home = () => {
 return (
 <div>
@@ -29,17 +30,7 @@ return (
     </div>
 
     <div className="text-white font-Cormorant pb-40 relative ">
-      <ImageWithOverly src='./src/assets/glass.png'>
-        <div className="absolute top-[293px] left-[145px]">
-          <ul className='flex flex-col gap-y-16'>
-            <List text='Bar Menu' className='font-semibold text-6xl hover:underline transition-all duration-500' />
-            <List text='Food Menu' className='font-semibold text-6xl hover:underline transition-all duration-500' />
-            <List text='Desserts Menu' className='font-semibold text-6xl hover:underline transition-all duration-500' />
-          </ul>
-
-        </div>
-      </ImageWithOverly>
-
+      <Barmenu/>
       <RotateSpoon className='absolute top-[32px] left-[145px]' />
     </div>
 
