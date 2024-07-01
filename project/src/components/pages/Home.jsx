@@ -9,12 +9,13 @@ import RotateSpoon from '../layer/RotateSpoon';
 import Award from '../Award';
 import Banner from "../Banner";
 import Barmenu from '../layer/Barmenu';
+import Chef from '../Chef';
 const Home = () => {
 return (
 <div>
     <Banner/>
     <div className="pb-[150px]">
-      <ImageWithOverly src='./src/assets/BG.png' className='py-[150px] '>
+      <ImageWithOverly value="h-[959px]" src='./src/assets/BG.png' className='py-[150px] '>
         <div className=" relative z-50 flex gap-x-20 items-center mx-[210px] pb-40">
           <About_Us className='rotate-180' txt='About Us' direction='items-end' txtAaling='text-end' />
           <picture className=''>
@@ -35,6 +36,8 @@ return (
     </div>
 
     <BookNow />
+
+    <Chef/>
     <Award/>
 </div>
 );
