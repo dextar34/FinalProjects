@@ -83,7 +83,7 @@ const Banner = () => {
          <Link>
         <p>#Bar</p>
         </Link>
-        <Link>
+        <Link to="/Our/Services">
         <p>#Gericht</p>
         </Link>
       </div>

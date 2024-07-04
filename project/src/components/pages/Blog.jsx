@@ -5,10 +5,10 @@ import With_Sidebar from '../layer/With_Sidebar';
 
 const Blog = () => {
   return (
-    <Container>
+    <div>
         <BreadCrumb text='Our Blogs'/>
         <With_Sidebar/>
-    </Container>
+    </div>
   );
 }
 

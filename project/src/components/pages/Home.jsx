@@ -10,6 +10,8 @@ import Award from '../Award';
 import Banner from "../Banner";
 import Barmenu from '../layer/Barmenu';
 import Chef from '../Chef';
+import Blogs from '../Blogs';
+import Photogallery from '../Photogallery';
 const Home = () => {
 return (
 <div>
@@ -39,6 +41,8 @@ return (
 
     <Chef/>
     <Award/>
+    <Blogs/>
+    <Photogallery/>
 </div>
 );
 }
