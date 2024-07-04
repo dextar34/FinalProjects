@@ -10,6 +10,7 @@ import Home from './components/pages/Home';
 import About from './components/pages/Services';
 import Services from './components/pages/Services';
 import Blog from './components/pages/Blog';
+import Blog2 from './components/pages/Blog2';
 
 const App = () => {
   const router = createBrowserRouter(
@@ -21,6 +22,7 @@ const App = () => {
         <Route index element={<Home/>}/>
         <Route path='/our/services' element={<Services/>}/>
         <Route path="/our/blogs-/with/sidebar" element={<Blog/>}/>
+        <Route path="/our/blogs-/single/column" element={<Blog2/>}/>
       </Route>
     )
   );
