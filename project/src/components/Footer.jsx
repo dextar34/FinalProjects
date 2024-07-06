@@ -14,8 +14,7 @@ const Footer = () => {
 return (
 <footer className="footer mt-[152px]">
     <Container className="relative">
-        <div
-            className="Newsletter bg-[#0C0C0C] border border-[#dcca8733] w-[1300px] h-[442px] absolute left-[150px] top-[-33.5%] text-center flex flex-col items-center">
+        <div className="Newsletter bg-[#0C0C0C] border border-[#dcca8733] w-[1300px] h-[442px] mx-auto text-center flex flex-col items-center">
             <div className="ml-[90px]">
                 <div className="flex flex-col justify-center items-center ">
                     <h3 className="text-[#FFFFFF] font-Cormorant rant  font-bold text-[23px] text-center mt-[64px] ">

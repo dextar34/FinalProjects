@@ -12,17 +12,17 @@ import Barmenu from '../layer/Barmenu';
 import Chef from '../Chef';
 import Blogs from '../Blogs';
 import Photogallery from '../Photogallery';
+import BG from "../../assets/BG.png"
+import knife from "../../assets/knife.png"
 const Home = () => {
 return (
 <div>
     <Banner/>
     <div className="pb-[150px]">
-      <ImageWithOverly value="h-[959px]" src='./src/assets/BG.png' className='py-[150px] '>
+      <ImageWithOverly value="h-[959px]" src={BG} className='py-[150px] '>
         <div className=" relative z-50 flex gap-x-20 items-center mx-[210px] pb-40">
           <About_Us className='rotate-180' txt='About Us' direction='items-end' txtAaling='text-end' />
-          <picture className=''>
-            <img src="./src/assets/knife.png" alt="" />
-          </picture>
+            <img src={knife} alt="" />
           <About_Us txt='Our History' className='' direction='items-start' txtAaling='text-start' />
         </div>
         <picture className='absolute top-1/2 right-1/2 translate-x-1/2 -translate-y-1/2 -z-9'>

@@ -1,7 +1,11 @@
 import React from 'react'
 import Container from './Container'
 import Spoon from './Spoon'
-
+import One from "../assets/One.png"
+import Two from "../assets/Two.png"
+import Three from "../assets/Three.png"
+import Five from "../assets/Five.png"
+import double from "../assets/double.png"
 
 
 const Award = () => {
@@ -17,28 +21,28 @@ const Award = () => {
         </div>
         <div className="rectangle flex flex-wrap gap-x-8 gap-y-16 mt-16 my-32 ">
             <div className="img flex">
-                <img className='pr-8 w-20 h-[60px]'  src="./src/assets/One.png" alt="" />
+                <img className='pr-8 w-20 h-[60px]'  src={One} alt="" />
                 <div className="text2 w-36">
                     <h4 className='font-Cormorant text-[#DCCA87] font-bold text-[23px]'>Bib Gourmond</h4>
                     <p className='text-[#AAAAAA] text-xs leading-7'>Lorem ipsum dolor sit amet, consectetur.</p>
                 </div>
             </div>
             <div className="img1 flex">
-                <img className='pr-8 w-20 h-[60px]'  src="./src/assets/Two.png" alt="" />
+                <img className='pr-8 w-20 h-[60px]'  src={Two} alt="" />
                 <div className="text2 w-36">
                     <h4 className='font-Cormorant text-[#DCCA87] font-bold text-[23px]'>Rising Star</h4>
                     <p className='text-[#AAAAAA] text-xs leading-7'>Lorem ipsum dolor sit amet, consectetur.</p>
                 </div>
             </div>
             <div className="img2 flex">
-                <img className='pr-8 w-20 h-[60px]'  src="./src/assets/Three.png" alt="" />
+                <img className='pr-8 w-20 h-[60px]'  src={Three} alt="" />
                 <div className="text2 w-36">
                     <h4 className='font-Cormorant text-[#DCCA87] font-bold text-[23px]'>AA Hospitality </h4>
                     <p className='text-[#AAAAAA] text-xs leading-7'>Lorem ipsum dolor sit amet, consectetur.</p>
                 </div>
             </div>
             <div className="img3 flex">
-                <img className='pr-8 w-20 h-[60px]'  src="./src/assets/Five.png" alt="" />
+                <img className='pr-8 w-20 h-[60px]'  src={Five} alt="" />
                 <div className="text2 w-36">
                     <h4 className='font-Cormorant text-[#DCCA87] font-bold text-[23px] leading-7'>Outstanding Chef</h4>
                     <p className='text-[#AAAAAA] text-xs leading-7'>Lorem ipsum dolor sit amet, consectetur.</p>
@@ -48,7 +52,7 @@ const Award = () => {
         </div>
         <div className="right">
           
-            <img className='' src="./src/assets/double.png" alt="" />
+            <img className='' src={double} alt="" />
        </div>
     </div>
     </Container>

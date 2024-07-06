@@ -81,10 +81,10 @@ const Banner = () => {
       <Container className="flex justify-between items-center">
       <div className=" -rotate-90 flex gap-10">
          <Link>
-        <p>#Bar</p>
+        <p className='hover:text-[#DCCA87] duration-300'>#Bar</p>
         </Link>
         <Link to="/Our/Services">
-        <p>#Gericht</p>
+        <p className='hover:text-[#DCCA87] duration-300'>#Gericht</p>
         </Link>
       </div>
       <div className="">

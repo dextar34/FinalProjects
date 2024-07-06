@@ -18,17 +18,17 @@ const Nav = () => {
               </div>           
                 <div className={` py-8  w-auto   bg-[#0C0B08]  flex justify-center `}>
                 <ul className="flex items-center justify-center  w-auto gap-y-2 gap-x-[32px]">
-                    <List href="/" text="Home" />
-                    <List href="/" text="Pages" />
-                    <List href="/" text="Contact us" />
-                    <List href="/our/blogs-/with/sidebar" text="Blog" />
-                    <List href="/" text="Landing" />
+                    <List className="hover:text-[#DCCA87] duration-300" href="/" text="Home" />
+                    <List className="hover:text-[#DCCA87] duration-300" href="/" text="Pages" />
+                    <List className="hover:text-[#DCCA87] duration-300" href="/Contact/Us" text="Contact us" />
+                    <List className="hover:text-[#DCCA87] duration-300" href="/our/blogs-/with/sidebar" text="Blog" />
+                    <List className="hover:text-[#DCCA87] duration-300" href="/" text="Landing" />
                 </ul>
                </div>
                 <div className="Login flex justify-end text-[#FFF] text-base items-center  font-semibold cursor-pointer w-auto">
-                  <p>Log in / registration</p>
+                  <p><span className='hover:text-[#DCCA87] duration-300'>Log in</span> / <span className='hover:text-[#DCCA87] duration-300'>registration</span></p>
                   <Images className="px-10 " href="/" src={Line} alt="Line.png"/>
-                  <p>Book Table</p>
+                  <p className='hover:text-[#DCCA87] duration-300'>Book Table</p>
                </div>
             
 
