@@ -44,7 +44,7 @@ const Blogs = () => {
           <p className='font-OS text-[#AAA] mt-8 mb-8 leading-7 tracking-[0.64px] text-base'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
         </div>
 
-        <Link className='text-[#DCCA87] font-CU text-base leading-7 font-bold tracking-[0.64px]' >Read More</Link>
+        <Link to='/our/blogs-/single/column' className='text-[#DCCA87] font-CU text-base leading-7 font-bold tracking-[0.64px]' >Read More</Link>
           
 
         </div>
@@ -62,7 +62,7 @@ const Blogs = () => {
           <p className='font-OS text-[#AAA] mt-8 mb-8 leading-7 tracking-[0.64px] text-base'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
         </div>
 
-        <Link className='text-[#DCCA87] font-CU text-base leading-7 font-bold tracking-[0.64px]' >Read More</Link>
+        <Link to='/our/blogs-/single/column' className='text-[#DCCA87] font-CU text-base leading-7 font-bold tracking-[0.64px]' >Read More</Link>
           
 
         </div>
@@ -80,7 +80,7 @@ const Blogs = () => {
           <p className='font-OS text-[#AAA] mt-8 mb-8 leading-7 tracking-[0.64px] text-base'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
         </div>
 
-        <Link className='text-[#DCCA87] font-CU text-base leading-7 font-bold tracking-[0.64px]' >Read More</Link>
+        <Link to='/our/blogs-/single/column' className='text-[#DCCA87] font-CU text-base leading-7 font-bold tracking-[0.64px]' >Read More</Link>
           
 
         </div>
@@ -90,7 +90,9 @@ const Blogs = () => {
 
         </div>
         <div className='flex justify-center items-center mt-16'>
-        <Button text='View More'/>
+          <Link to='/our/blogs-/with/sidebar'>
+            <Button text='View More'/>
+          </Link>
         </div>
         
           
