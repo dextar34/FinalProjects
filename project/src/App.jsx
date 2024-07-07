@@ -13,6 +13,8 @@ import Blog from './components/pages/Blog';
 import Blog2 from './components/pages/Blog2';
 import BlogsDetail from './components/pages/BlogsDetail';
 import Contact from './components/pages/Contact';
+import Error from './components/pages/Error';
+import ComingSoon from './components/pages/ComingSoon';
 
 const App = () => {
   const router = createBrowserRouter(
@@ -20,6 +22,7 @@ const App = () => {
       <Route
         path="/"
         element={<RootLayout/>}
+        errorElement={<Error/>}
       >
         <Route index element={<Home/>}/>
         <Route path='/our/services' element={<Services/>}/>
@@ -27,6 +30,7 @@ const App = () => {
         <Route path="/our/blogs-/single/column" element={<Blog2/>}/>
         <Route path="/tips/for/prepping/and/caring/for/your/grill" element={<BlogsDetail/>}/>
         <Route path="/Contact/Us" element={<Contact/>}/>
+        <Route path="/Coming" element={<ComingSoon/>}/>
       </Route>
     )
   );

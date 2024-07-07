@@ -80,7 +80,7 @@ const Banner = () => {
       </div>
       <Container className="flex justify-between items-center">
       <div className=" -rotate-90 flex gap-10">
-         <Link>
+         <Link to="/Coming">
         <p className='hover:text-[#DCCA87] duration-300'>#Bar</p>
         </Link>
         <Link to="/Our/Services">
