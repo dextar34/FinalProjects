@@ -15,7 +15,7 @@ import BlogsDetail from './components/pages/BlogsDetail';
 import Contact from './components/pages/Contact';
 import Error from './components/pages/Error';
 import ComingSoon from './components/pages/ComingSoon';
-
+import Faq from './components/pages/Faq';
 const App = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
@@ -30,7 +30,8 @@ const App = () => {
         <Route path="/our/blogs-/single/column" element={<Blog2/>}/>
         <Route path="/tips/for/prepping/and/caring/for/your/grill" element={<BlogsDetail/>}/>
         <Route path="/Contact/Us" element={<Contact/>}/>
-        <Route path="/Coming" element={<ComingSoon/>}/>
+        <Route path="/Coming" element={<ComingSoon/>}/>  
+        <Route path="/faq" element={<Faq/>}/>  
       </Route>
     )
   );
