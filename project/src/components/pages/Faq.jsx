@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 import Bredcum from '../layer/Bredcum';
-import ImageWithOverly from '../ImageWithOverly';
 import Container from '../layer/Container';
+import faq from '../../assets/faq.png'
+import ImageWithBorder from '../ImageWithBorder';
 
 const Accordion = ({ title, content }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="accordion-item mb-4 border border-transparent  hover:border-[#DCCA87] transition-colors duration-300">
+    <div className="accordion-item mb-4 border border-transparent  hover:border-[#DCCA87] transition-colors duration-300 w-[586px]">
       <button
         className="accordion-title w-full text-left py-4 px-6  bg-[#242424] text-white focus:outline-none hover:text-[#DCCA87]"
         onClick={() => setIsOpen(!isOpen)}
@@ -28,16 +29,13 @@ const Faq = () => {
     <>
       <Bredcum text="Frequently Asked Questions" />
 
+      <div className=" py-10">
       <Container>
-        <div className="flex flex-col md:flex-row items-start">
-          <div className="left md:w-1/2 p-4 relative">
-            <ImageWithOverly>
-              <picture className="absolute inset-0 flex justify-center items-center">
-                <img src="./src/assets/faq.png" alt="FAQ" className="object-cover" />
-              </picture>
-            </ImageWithOverly>
+        <div className=" flex justify-between items-center">
+          <div className="left">
+            <ImageWithBorder src={faq} className='object-cover h-full w-full'/>
           </div>
-          <div className="right md:w-1/2 p-4">
+          <div className="right  p-4">
             <Accordion
               title="How Do I Reach To The Restaurant?"
               content="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
@@ -65,6 +63,7 @@ const Faq = () => {
           </div>
         </div>
       </Container>
+      </div>
     </>
   );
 };
