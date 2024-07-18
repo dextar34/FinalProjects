@@ -31,7 +31,7 @@ const Faq = () => {
 
       <div className=" py-10">
       <Container>
-        <div className=" flex justify-between items-center">
+        <div className=" flex  gap-x-8 justify-center  items-center">
           <div className="left">
             <ImageWithBorder src={faq} className='object-cover h-full w-full'/>
           </div>
