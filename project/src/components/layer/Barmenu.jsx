@@ -4,8 +4,8 @@ import List from './List'
 import glass_img from "../../assets/glass.png"
 const Barmenu = () => {
   return (
-    <ImageWithOverly src={glass_img}>
-    <div className="absolute top-[293px] left-[145px]">
+    <ImageWithOverly className={'relative'} src={glass_img}>
+    <div className="absolute -top-[600px] left-1/2]">
       <ul className='flex flex-col gap-y-16'>
         <List text='Bar Menu' className='font-semibold text-6xl hover:underline transition-all duration-500' />
         <List text='Food Menu' className='font-semibold text-6xl hover:underline transition-all duration-500' />
